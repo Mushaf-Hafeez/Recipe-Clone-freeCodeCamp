@@ -1,0 +1,32 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.tags-container{
+    margin: 3% 10%; 
+    height: 62.5vh;
+    width: 80%;
+}
+
+.tags-container .tag button{
+    width: 33%;
+    height: 20%;
+    background-color: #64748b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.tags-container .tag button:hover{
+    background-color: rgb(80, 80, 250);
+}
+

@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.about-main-container{
+    margin: 3% 10%;
+    display: flex;
+}
+
+.about-main-container .content{
+    width: 50%;
+    padding: 60px 0;
+}
+
+.about-main-container .content h1{
+    font-size: 40px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+    color: rgb(28, 28, 28);
+}
+
+.about-main-container .content p{
+    margin-bottom: 20px;
+    color: rgb(35, 35, 35);
+    line-height: 25px;
+}
+
+.about-main-container .content a button{
+    color: white;
+    height: 35px;
+    width: 100px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: rgb(80, 80, 250);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all .25s ease;
+}
+
+.about-main-container .content a button:hover{
+    background-color: rgb(50, 50, 253);
+}
+
+
+.about-main-container .poster{
+    width: 50%;
+    background-image: url('assets/about.jpeg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.about-cards-container{
+    margin: 3% 10%;
+}
+
+.about-cards-container h2{
+    text-align: center;
+    font-weight: 400;
+    margin: 20px 0;
+}
+
+.about-cards-container .cards-container{
+    width: 100%;
+}
+
+.about-cards-container .cards-container .about-card{
+    width: 30%;
+    display: flex;
+}
+
+.about-card a{
+    width: 100%;
+}
+
+.about-card a img{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+.about-card h4{
+    color: rgb(53, 52, 52);
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.about-card p{
+    color: grey;
+}
+
+
